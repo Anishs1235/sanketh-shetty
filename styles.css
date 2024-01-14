@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#abc{
+  height: 10vmax;
+  background-color: red;
+font-size: 5vmax;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 800;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navbar{
+  height: 40px;
+  background-color: black;
+  font-size: 1.5vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  color: antiquewhite;
+  text-decoration: none;
+  margin: 0 7vmax 0 7vmax;
+}
+
+body{
+  background-color: rgb(187, 145, 226);
+}
+a:hover{
+  color: aqua;
+}
+#pic{
+  height: 25vmax;
+  width: 23vmax;
+  margin-top: 10vmax;
+  margin-left: 6vmax;
+  background-image:url(sanketh.jpg) ;
+  background-size: cover;
+  border: 2px solid black;
+  border-radius: 30px;
+
+}
+  
+#pic:hover{
+  box-shadow: 0 40px 60px rgba(19, 19, 18, 0.9);
+
+}
+
+h1{
+  font-size: 80px;
+  margin-left: 50px;
+  margin-top: 80px;
+  margin-bottom: 200px;
+}
+
+#an{
+display: flex;
+align-items: center;
+
+}
+#details{
+  font-size: 4vmax;
+  font-weight: 500;
+  padding-left: 30px;
+
+}
+
+#btn{
+  background-color: aquamarine;
+  height: 2vmax;
+  width: 8vmax;
+  border-radius: 3vmax;
+}
